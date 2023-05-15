@@ -439,8 +439,8 @@ input[type="submit"]:hover {
   background-color: var(--btn-hover-color);
 }
 
-form > input:focus,
-form > textarea:focus{
+.reg_form > input:focus,
+.reg_form > textarea:focus{
   border: 1px solid --main-red;
   outline: 3px solid #ee50588f;
 } 
@@ -511,7 +511,7 @@ color: white;
     flex-direction: column;
   }
 
-  form,iframe{
+  .reg_form,iframe{
     width: 100%;
   }
 }
